@@ -4,10 +4,12 @@
 }
 
 h1{
+    font-size: 50px;
+    margin-top: 40px;
     text-align: center;
-    color: rgb(92, 147, 209);
+    color: rgb(52, 110, 180);
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-shadow: 2px 2px 4px rgba(244, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px orangered;
 }
 
 section{
@@ -18,6 +20,7 @@ section{
 }
 
 section img{
+    margin-top: 130px;
     width: 0;
     flex-grow: 1;
     object-fit: cover;
@@ -33,5 +36,6 @@ section img:hover{
 }
 
 h1:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
+
